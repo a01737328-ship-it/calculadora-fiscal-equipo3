@@ -1,8 +1,8 @@
 import streamlit as st
-import myabe
+import myabeE
 
 st.title("Calculadora Fiscal")
 
 if st.button("Calcular"):
-    resultado = myabe.main()  # cambia esto si tu función principal tiene otro nombre
+    resultado = myabeE.main()  # cambia esto si tu función principal tiene otro nombre
     st.write(resultado)
